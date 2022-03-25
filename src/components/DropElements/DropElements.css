@@ -1,0 +1,14 @@
+.droppable-container {
+    width: min(50vw, 500px);
+    height: 30vh;
+    border: 2px dashed palevioletred;
+
+    grid-row: 7 span;
+    place-self: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
