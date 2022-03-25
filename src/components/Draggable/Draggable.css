@@ -1,0 +1,14 @@
+.draggable {
+    cursor: move;
+    border: 2px solid black;
+    padding: min(3vh, 15px) 10px;
+
+    place-self: center;
+    align-self: center;
+}
+
+.dragging {
+    opacity: 0.7;
+    transition: transform 250ms ease;
+    transform: scale(1.1);
+}
